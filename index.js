@@ -74,9 +74,9 @@ function renderMobile(){
     document.body.append(header, main)
 }
 
-const mediaQuery = window.matchMedia('(max-width: 350px)')
+const mediaQuery = window.matchMedia('(max-width: 375px)')
 
-mediaQuery.matches?renderMobile():alert("Viewport width is larger than 355px")
+mediaQuery.matches?renderMobile():window.alert("Viewport width is larger than 355px");
 
 
     
