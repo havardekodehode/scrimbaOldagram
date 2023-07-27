@@ -1,0 +1,90 @@
+/* layout */
+body{
+    margin: 0    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    border-bottom: solid #d9d9d9 1px;
+}
+
+section{
+    padding-bottom: 20px;
+}
+
+.logo{
+    width: 120px;
+}
+
+
+.avatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.userInfo{
+    display: flex;
+}
+
+.userInfo .avatar{
+    padding-right: 10px;
+}
+
+.nameAndLocationContainer{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.name,
+.location,
+.user,
+.comment{
+    margin: 0px;
+}
+
+.name{
+    font-weight: bold;
+}
+
+.postImage{
+    width: 100%;
+}
+
+.postResponse{
+    display: flex;
+    flex-direction: column;
+}
+
+.actionContainer{
+    display: inline-block;
+    height: 30px;
+    margin-left: 5px
+}
+
+.actionContainer img{
+    height: 100%;
+    margin-right: 5px;
+}
+
+.postResponse{
+    margin-left: 5px;
+}
+
+.likes{
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.userAndCommentContainer{
+    display: flex;
+    gap: 4px
+}
+
+.user{
+    font-weight: bold;
+}
